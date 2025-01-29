@@ -25,6 +25,7 @@
                 'nav-button': 'rgb(182, 140, 90)',
                 'nav': 'rgb(112, 112, 112)',
                 'input-bg': 'rgb(243, 243, 243)',
+                'footer-bg': 'rgb(17, 17, 17)',
               }
             }
           }
@@ -432,8 +433,48 @@
         </section>
     </main>
 
-    <footer>
 
+    <footer>
+        <div class="footer bg-footer-bg text-white text-base-content p-10 container mx-auto justify-center gap-5 md:gap-20">
+            <nav>
+                <img src="./images/logo.png" alt="">
+                <p class="w-[260px] poppins-thin text-base font-normal">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              </nav>
+              <nav>
+                <h6 class=" text-xl font-bold eb-garamond text-white">Usefull Link</h6>
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">About Us</a>
+                <a class="link link-hover">Cases
+                </a>
+                <a class="link link-hover">Blog
+                </a>
+                <a class="link link-hover">Contact Us
+                </a>
+              </nav>
+              <nav>
+                <h6 class="text-xl font-bold eb-garamond text-white">555 4th 5t NW, Washington <br>
+                    DC 20530, United States</h6>
+                <a class="link link-hover">+88 01750 000 000 <br>
+                    +88 01750 000 000</a>
+                <a class="link link-hover">info@gmail.com <br>
+                    info@gmail.com</a>
+              </nav>
+              <form>
+                <h6 class="text-xl font-bold eb-garamond text-white">Subscribe</h6>
+                <fieldset class="form-control ">
+                  <label class="label">
+                    <span class="text-base font-normal poppins-thin text-white w-[217px]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</span>
+                  </label>
+                  <div class="join">
+                    <input
+                      type="text"
+                      placeholder="Email Address"
+                      class="input input-bordered join-item" />
+                    <button class="btn bg-nav-button join-item"><i class="fa-regular fa-paper-plane "></i></button>
+                  </div>
+                </fieldset>
+              </form>       
+        </div>
     </footer>
 </body>
 </html>
